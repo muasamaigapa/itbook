@@ -1,0 +1,47 @@
+:host {
+    position: relative;
+    .banner-container {
+        background: linear-gradient(to right, rgb(195,239,191), rgb(119,253,246));
+        height: 550px;
+        padding: 50px 50px 0px 0;
+        margin-left: 130px;
+        .banner-left {
+            float: left;
+            img {
+                width: 600px;
+                position: absolute;
+                left: 50px;
+            }
+        }
+        .banner-right {
+            position: relative;
+            right: 15%;
+            float: right;
+            p, h2, a {
+                text-transform: uppercase;
+            }
+            p {
+                font-weight: 350px;
+                font-size: 30px;
+                font-family: 'Quicksand', sans-serif;
+                margin-top: 100px;
+                margin-bottom: -1px;
+            }
+            h2 {
+                font-weight: 700;
+                font-size: 72px;
+                font-family: 'Lato', sans-serif;
+                margin-top: -1px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+                background: #000;
+                padding: 10px 15px;
+                border-radius: 50vh;
+                font-family: 'Lato', sans-serif;
+                font-weight: 700;
+            }
+        }
+    }
+}
